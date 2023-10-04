@@ -14,6 +14,10 @@
 		E427DB7C2ACCFAE1000C6F53 /* DebuggingAndProfilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB7B2ACCFAE1000C6F53 /* DebuggingAndProfilingTests.swift */; };
 		E427DB862ACCFAE1000C6F53 /* DebuggingAndProfilingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB852ACCFAE1000C6F53 /* DebuggingAndProfilingUITests.swift */; };
 		E427DB882ACCFAE1000C6F53 /* DebuggingAndProfilingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB872ACCFAE1000C6F53 /* DebuggingAndProfilingUITestsLaunchTests.swift */; };
+		E427DB952ACD02BB000C6F53 /* StressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB942ACD02BB000C6F53 /* StressTest.swift */; };
+		E427DB972ACD02CE000C6F53 /* OccassionalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB962ACD02CE000C6F53 /* OccassionalUpdate.swift */; };
+		E427DB992ACD14F0000C6F53 /* DebugThisCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427DB982ACD14F0000C6F53 /* DebugThisCode.swift */; };
+		E427DB9B2ACD296C000C6F53 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E427DB9A2ACD296C000C6F53 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E427DB812ACCFAE1000C6F53 /* DebuggingAndProfilingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuggingAndProfilingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E427DB852ACCFAE1000C6F53 /* DebuggingAndProfilingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingAndProfilingUITests.swift; sourceTree = "<group>"; };
 		E427DB872ACCFAE1000C6F53 /* DebuggingAndProfilingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingAndProfilingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E427DB942ACD02BB000C6F53 /* StressTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressTest.swift; sourceTree = "<group>"; };
+		E427DB962ACD02CE000C6F53 /* OccassionalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccassionalUpdate.swift; sourceTree = "<group>"; };
+		E427DB982ACD14F0000C6F53 /* DebugThisCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugThisCode.swift; sourceTree = "<group>"; };
+		E427DB9A2ACD296C000C6F53 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		E427DB5E2ACCFADD000C6F53 = {
 			isa = PBXGroup;
 			children = (
+				E427DB9A2ACD296C000C6F53 /* .gitignore */,
 				E427DB692ACCFADD000C6F53 /* DebuggingAndProfiling */,
 				E427DB7A2ACCFAE1000C6F53 /* DebuggingAndProfilingTests */,
 				E427DB842ACCFAE1000C6F53 /* DebuggingAndProfilingUITests */,
@@ -96,6 +105,9 @@
 			children = (
 				E427DB6A2ACCFADD000C6F53 /* DebuggingAndProfilingApp.swift */,
 				E427DB6C2ACCFADD000C6F53 /* ContentView.swift */,
+				E427DB942ACD02BB000C6F53 /* StressTest.swift */,
+				E427DB962ACD02CE000C6F53 /* OccassionalUpdate.swift */,
+				E427DB982ACD14F0000C6F53 /* DebugThisCode.swift */,
 				E427DB6E2ACCFAE0000C6F53 /* Assets.xcassets */,
 				E427DB702ACCFAE0000C6F53 /* Preview Content */,
 			);
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E427DB722ACCFAE0000C6F53 /* Preview Assets.xcassets in Resources */,
+				E427DB9B2ACD296C000C6F53 /* .gitignore in Resources */,
 				E427DB6F2ACCFAE0000C6F53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E427DB972ACD02CE000C6F53 /* OccassionalUpdate.swift in Sources */,
 				E427DB6D2ACCFADD000C6F53 /* ContentView.swift in Sources */,
+				E427DB952ACD02BB000C6F53 /* StressTest.swift in Sources */,
+				E427DB992ACD14F0000C6F53 /* DebugThisCode.swift in Sources */,
 				E427DB6B2ACCFADD000C6F53 /* DebuggingAndProfilingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
