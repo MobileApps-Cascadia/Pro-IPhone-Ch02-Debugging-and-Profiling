@@ -42,7 +42,7 @@ struct DebugThisCode: View {
                 TextField("Temperature in Celsius", text: $celsiusTemp)
                 Button(action: {
                     if let cel = Double(celsiusTemp) {
-                        var fah = (cel * 5 / 9 ) + 32
+                        let fah = (cel * 5 / 9 ) + 32
                         fahrenheitTemp = String(fah)
                    } else {
                        print("Not a valid number")
@@ -68,3 +68,5 @@ struct DebugThisCode_Previews: PreviewProvider {
         DebugThisCode()
     }
 }
+
+
