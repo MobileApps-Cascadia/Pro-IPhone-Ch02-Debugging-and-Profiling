@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            // 2 - The app redrew its views 7 times in the 30 sec OccassionalUpdate was in the foreground and 2,730 times while stress test was in the foreground
             OccassionalUpdate()
                 .tabItem {
                     Image(systemName: "smiley")
