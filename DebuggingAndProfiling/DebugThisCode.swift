@@ -22,7 +22,8 @@ struct DebugThisCode: View {
                     print("Fah changed to \(fahrenheitTemp)")
                     if let fah = Double(fahrenheitTemp) {
                        print("Value is \(fah)")
-                        var cel = (fah + 32) * 5 / 9
+                        //var cel = (fah + 32) * 5 / 9
+                        let cel = (fah - 32) * 5 / 9
                         celsiusTemp = String(cel)
                    } else {
                        print("Not a valid number")
@@ -42,7 +43,8 @@ struct DebugThisCode: View {
                 TextField("Temperature in Celsius", text: $celsiusTemp)
                 Button(action: {
                     if let cel = Double(celsiusTemp) {
-                        var fah = (cel * 5 / 9 ) + 32
+                        //var fah = (cel * 5 / 9 ) + 32
+                        let fah = (cel * 9 / 5) + 32
                         fahrenheitTemp = String(fah)
                    } else {
                        print("Not a valid number")
