@@ -22,7 +22,10 @@ struct DebugThisCode: View {
                     print("Fah changed to \(fahrenheitTemp)")
                     if let fah = Double(fahrenheitTemp) {
                        print("Value is \(fah)")
-                        var cel = (fah + 32) * 5 / 9
+
+                        //Variable 'cel' was never mutated; consider changing to 'let' constant
+
+                        let cel = (fah + 32) * 5 / 9
                         celsiusTemp = String(cel)
                    } else {
                        print("Not a valid number")
@@ -42,7 +45,8 @@ struct DebugThisCode: View {
                 TextField("Temperature in Celsius", text: $celsiusTemp)
                 Button(action: {
                     if let cel = Double(celsiusTemp) {
-                        var fah = (cel * 5 / 9 ) + 32
+                        // Variable 'fah' was never mutated; consider changing to 'let' constant
+                        let fah = (cel * 5 / 9 ) + 32
                         fahrenheitTemp = String(fah)
                    } else {
                        print("Not a valid number")
