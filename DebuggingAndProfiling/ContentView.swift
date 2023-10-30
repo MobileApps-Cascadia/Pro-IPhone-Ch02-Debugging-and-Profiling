@@ -35,3 +35,15 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+// Converting f to c required a variable change from var to let.
+
+//OG - var cel = (fah + 32) * 5 / 9
+//NEW - let cel = (fah - 32) * 5 / 9
+//OG - var fah = (cel * 5 / 9 ) + 32
+//NEW - let fah = (cel * 9 / 5) + 32
+//2. Foreground in OccassionalUpdate redrawn 7 times, Stress test continues to grow while in foreground
+//3. //OccasionalUpdate shows a hang after button click, Stress test runtime is about 28ms per run
+
